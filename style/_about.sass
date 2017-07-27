@@ -1,0 +1,25 @@
+/* main: styles.sass*/
+#about
+  height: 60vh
+  background: url(../assets/about-hero.jpg) center center no-repeat
+    attachment: fixed
+    size: cover
+  h1
+    top: 25vh
+  .button
+    position: relative
+    top: 40vh
+    left: 50%
+    transform: translateX(-50%)
+#about-main
+  @include padding-main
+  .row
+    @include wrapper
+    @include padding-medium
+    img
+      @include page-images
+    p
+      text-align: justify
+      line-height: 1.6
+    h2
+      margin-top: 0

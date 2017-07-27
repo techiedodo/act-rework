@@ -1,0 +1,40 @@
+/* main: styles.sass*/
+#main-nav
+  background-color: transparent
+  border: none
+  padding-top: 1.5em
+  height: 8em
+  font-family: 'Anton', sans-serif
+  .navbar-header
+    .navbar-toggle
+      z-index: 3
+      margin-right: 2em
+    #logo
+      position: absolute
+      width: 100%
+      left: 0
+      text-align: center
+      margin: 0 auto
+  #navbar-main-collapse
+    max-width: 45em
+    margin: 0 auto
+    .nav.navbar-nav .active a
+      background-color: transparent
+      border-bottom: 4px solid #6CA
+    li
+      a
+        padding-top: 20px
+        height: 4em
+        &:hover
+          border-bottom: 4px solid white
+          transition: all .1s
+header
+  height: 85vh
+  background: url(../assets/header-image.jpg) center center no-repeat
+    attachment: fixed
+    size: cover
+  .button
+    position: relative
+    top: 60vh
+    left: 50%
+    transform: translateX(-50%)

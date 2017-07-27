@@ -1,0 +1,23 @@
+/* main: styles.sass*/
+#services
+  height: 60vh
+  background: linear-gradient(rgba(227,228,253,0.9), rgba(138, 117, 72, 0.41)), url(../assets/transportation.jpg) center center no-repeat
+    attachment: fixed
+    size: cover
+  h1
+    top: 25vh
+  .button
+    position: relative
+    top: 40vh
+    left: 50%
+    transform: translateX(-50%)
+#service-main
+  @include padding-main
+  .row
+    @include wrapper
+    @include padding-small
+    text-align: justify
+    img
+      @include page-images
+    p
+      line-height: 1.6

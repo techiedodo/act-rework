@@ -1,0 +1,97 @@
+//output:index.html
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title American Crew Transportation | Southern California's Best Crew Transport Services
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  meta(name="description" content="Southern California's Best Airline Crew Transportation.")
+  meta(name="keywords" content="Crew Transport, Airline Crew Trans Services, Airport Transporation")
+  meta(name="author" content="TechieDodo")
+  
+  // Latest compiled and minified CSS
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+  
+  link(rel='stylesheet', href='./style/styles.min.css')
+  // HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+  // WARNING: Respond.js doesn't work if you view the page via file://
+  //if lt IE 9
+    script(src='https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js')
+    script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+    
+  link(rel="shortcut icon" type="image/x-icon" href="./assets/ACTfavicon.ico")
+  
+body(data-title='index')
+  nav.navbar.navbar-default.navbar-fixed-top#main-nav
+    .container-fluid
+      .navbar-header(style='padding-bottom: 1.75em')
+        button(type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#navbar-main-collapse' aria-expanded='false')
+          span(class='sr-only') Toggle Navigation
+          span(class='icon-bar')
+          span(class='icon-bar')
+          span(class='icon-bar')
+        a(class='navbar-brand' id='logo' href='#')
+          span(class='text-lowercase' style='font-size: 2.25em') American
+          br
+          span Crew Transportation
+      .collapse.navbar-collapse#navbar-main-collapse
+        ul.nav.navbar-nav.navbar-left
+          li(class='active')
+            a(href='#') Home
+          li
+            a(href='services.html') Services
+        ul.nav.navbar-nav.navbar-right
+          li
+            a(href='about.html') About
+          li
+            a(href='contact.html') Contact Us
+  header
+    h1 Let Us transport your Airline Crew members and get them where they need to go.
+      hr
+      small American Crew Transportation strives to provide transportation services that are safe, reliable, and affordable to any budget.
+    a(href="contact.html" type='button' class='button btn btn-primary')
+      |Get A Quote
+  .container-fluid
+    #main-section.row
+      #contents
+        #text
+          h2 Why Choose Us?
+          img(src="./assets/why-us.jpg", alt="Working Together" class='img-responsive' style='border: 2px solid #fafafb; box-shadow: 1px 3px 15px grey')
+      #content.row
+        .col-xs-12.col-sm-10.col-sm-offset-1.items#first-item
+          h2 Working with Big Brands
+          p We provide crew transportation services to some of LAX's biggest names. We strive to provide excellent ground transportation &mdash; we'll take care of your crew.
+          img(src="./assets/lax.jpg", alt="Working Together" class='img-responsive')
+        .col-xs-12.col-sm-8.pull-right.items#second-item
+          h2 Price
+          p Servicing airline crews exclusively ensures that we provide the best transportation services at a great price positively impacting your bottom line.
+          img(src="./assets/Price.png", alt="Saving Money" class='img-responsive')
+        .col-xs-12.col-sm-9.col-sm-offset-1.items#third-item
+          h2 Experience
+          p We are private company that focuses on providing quality contract shuttle services and count with over 10 years of experience.
+          img(src="./assets/Service.png", alt="World Class Service" class='img-responsive')
+        .col-xs-12.col-sm-8.pull-right.items#fourth-item
+          h2 Safety
+          p All of our drivers are trained and certified becuase your safety is our number one priority.
+          img(src="./assets/Safety.png", alt="Safety is #1" class='img-responsive')
+  footer
+    .row
+      .col-xs-6
+        h3 American Crew Transporation LLC
+        ul
+          li Address &mdash; 636 S La Brea Ave, Inglewood, CA 90301
+          li Phone &mdash; (310) 531-6449
+          li 24Hr Dispatch &mdash; (310) 531-6449
+      .col-xs-6
+        h3 Servicing LAX & all of Southern California
+        p Our staff at American Crew Transportation has over 10 years of experience in helping companies and people get to where they want to go.
+    hr
+    .row
+      .col-xs-12(class='text-right')
+        a(href="http://TechieDodo.com" style='color: orange')
+          | &copy; 2017 Techie Dodo &mdash; Adapt & Fly
+  // jQuery library
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+  // Latest compiled JavaScript
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+  script(src='./scripts/scripts.js')
