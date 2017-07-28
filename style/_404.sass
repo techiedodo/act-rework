@@ -1,0 +1,23 @@
+/* main: styles.sass*/
+#Not-Found
+  color: white
+  text-shadow: 1px 1px gray
+  background: url(../assets/404-background.jpg) center bottom no-repeat
+    attachment: fixed
+    size: cover
+  @include padding-main
+  min-height: 80vh
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px)
+    background: url(../assets/404-background-small.jpg) center center no-repeat
+      attachment: scroll
+      size: cover
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+    background: url(../assets/404-background-med.jpg) center center no-repeat
+      attachment: scroll
+      size: cover
+  .row
+    @include wrapper
+    h1
+      text-align: center
+      position: relative
+      top: 25vh
